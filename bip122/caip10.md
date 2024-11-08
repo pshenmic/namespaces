@@ -6,7 +6,7 @@ discussions-to: https://github.com/ChainAgnostic/namespaces/pulls/3
 status: Draft
 type: Standard
 created: 2019-12-05
-updated: 2024-06-05
+updated: 2024-08-24
 requires: ["CAIP-2", "CAIP-10"]
 replaces: CAIP-4
 ---
@@ -45,7 +45,7 @@ Rough validation for other networks can be achieved by updating the prefixes in 
 
 For more precise validation, it is recommended to first detect the type from the prefix as mentioned above, then compute the type-specific checksum as specified in the corresponding Bitcoin Improvement Proposals linked above (taking into account that networks other than Bitcoin mainnet use different literals, affecting not just the prefixes but also the checksum algorithms).
 
-### Backwards Compatibility
+### Backwards Compatibility[dash.conf](..%2F..%2F..%2FLibrary%2FApplication%20Support%2FDashCore%2Fdash.conf)
 
 Previously, the legacy CAIP-10 schema was defined by appending as suffix the
 CAIP-2 chainId delimited by the at sign (@)
@@ -64,7 +64,7 @@ bip122:000000000019d6689c085ae165831e93:35PBEaofpUeH8VnnNSorM1QZsadrZoQp4N
 bip122:000000000019d6689c085ae165831e93:bc1qwz2lhc40s8ty3l5jg3plpve3y3l82x9l42q7fk
 
 # Bitcoin mainnet, Taproot address
-bip122:000000000019d6689c085ae165831e93:bc1pmzfrwwndsqmk5yh69yjr5lfgfg4ev8c0tsc06e
+bip122:000000000019d6689c085ae165831e93:bc1pmzfrwwndsqmk5yh69yjr5lfgfg4ev8c0tsc06e[dash.conf](..%2F..%2F..%2FLibrary%2FApplication%20Support%2FDashCore%2Fdash.conf)
 
 # Bitcoin testnet, Native SegWit address (P2WPKH)
 bip122:000000000933ea01ad0ee984209779ba:tb1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3q0sl5k7
@@ -80,6 +80,12 @@ bip122:12a765e31ffd4059bada1e25190f6e98:ltc1q8c6fshw2dlwun7ekn9qwf37cu2rn755u9ym
 
 # Litecoin testnet, Native SegWit address (P2WPKH)
 bip122:4966625a4b2851d9fdee139e56211a0d:tltc1qlustmw64lgd744h45n0t07wxnxw8pmv2sv07r9
+
+# Dash mainnet, P2SH address
+bip122:00000ffd590b1485b3caadc19b22e6379:7qatN1XUU1fB62sTmR2kb12cMmn1GfEVE2
+
+# Dash testnet, P2SH address
+bip122:00000bafbc94add76cb75e2ec9289483:93bhKLRLbZ3oYLHiqg2i3NqyFHYqKcFPzt
 
 ```
 

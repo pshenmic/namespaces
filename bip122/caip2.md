@@ -69,6 +69,9 @@ bip122:12a765e31ffd4059bada1e25190f6e98
 # Dogecoin mainnet
 bip122:1a91e3dace36e2be3bf030a65679fe821
 
+# Dash mainnet
+bip122:00000ffd590b1485b3caadc19b22e6379
+
 # Bitcoin testnet
 bip122:000000000933ea01ad0ee984209779ba
 
@@ -77,6 +80,9 @@ bip122:4966625a4b2851d9fdee139e56211a0d
 
 # Dogecoin testnet
 bip122:bb0a78264637406b6360aad926284d54
+
+# Dash testnet
+bip122:00000bafbc94add76cb75e2ec9289483
 ```
 
 ## References
