@@ -6,7 +6,7 @@ discussions-to: https://github.com/ChainAgnostic/namespaces/pulls/3
 status: Draft
 type: Standard
 created: 2019-12-05
-updated: 2024-08-17
+updated: 2024-11-09
 requires: CAIP-2
 replaces: CAIP-4
 ---

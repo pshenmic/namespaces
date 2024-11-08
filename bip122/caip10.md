@@ -6,7 +6,7 @@ discussions-to: https://github.com/ChainAgnostic/namespaces/pulls/3
 status: Draft
 type: Standard
 created: 2019-12-05
-updated: 2024-08-24
+updated: 2024-11-09
 requires: ["CAIP-2", "CAIP-10"]
 replaces: CAIP-4
 ---
@@ -45,7 +45,7 @@ Rough validation for other networks can be achieved by updating the prefixes in 
 
 For more precise validation, it is recommended to first detect the type from the prefix as mentioned above, then compute the type-specific checksum as specified in the corresponding Bitcoin Improvement Proposals linked above (taking into account that networks other than Bitcoin mainnet use different literals, affecting not just the prefixes but also the checksum algorithms).
 
-### Backwards Compatibility[dash.conf](..%2F..%2F..%2FLibrary%2FApplication%20Support%2FDashCore%2Fdash.conf)
+### Backwards Compatibility
 
 Previously, the legacy CAIP-10 schema was defined by appending as suffix the
 CAIP-2 chainId delimited by the at sign (@)
@@ -64,7 +64,7 @@ bip122:000000000019d6689c085ae165831e93:35PBEaofpUeH8VnnNSorM1QZsadrZoQp4N
 bip122:000000000019d6689c085ae165831e93:bc1qwz2lhc40s8ty3l5jg3plpve3y3l82x9l42q7fk
 
 # Bitcoin mainnet, Taproot address
-bip122:000000000019d6689c085ae165831e93:bc1pmzfrwwndsqmk5yh69yjr5lfgfg4ev8c0tsc06e[dash.conf](..%2F..%2F..%2FLibrary%2FApplication%20Support%2FDashCore%2Fdash.conf)
+bip122:000000000019d6689c085ae165831e93:bc1pmzfrwwndsqmk5yh69yjr5lfgfg4ev8c0tsc06e
 
 # Bitcoin testnet, Native SegWit address (P2WPKH)
 bip122:000000000933ea01ad0ee984209779ba:tb1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3q0sl5k7
